@@ -1,0 +1,64 @@
+# Visual Studio / .NET
+.vs/
+.vscode/
+.idea/
+
+# Build outputs
+bin/
+obj/
+out/
+publish/
+_PublishedWebsites/
+
+# Rider / ReSharper
+_ReSharper*/
+*.ReSharper
+*.DotSettings.user
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# NuGet
+*.nupkg
+packages/
+.nuget/
+
+# Logs, databases and local data
+*.log
+*.sql
+*.sqlite
+*.db
+*.mdf
+*.ldf
+*.db-journal
+
+# Test results
+TestResults/
+
+# Visual Studio IIS Express
+/.vs/**/applicationhost.config
+
+# Secrets / env (não versionar credenciais locais)
+appsettings.Development.json
+appsettings.Local.json
+secrets.json
+.env
+.env.local
+
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Node (se houver)
+node_modules/
+
+# Misc
+project.lock.json
+artifacts/
+Generated/
+
+# NOTA: Migrations do EF devem ser versionadas — não há padrão que as ignore aqui.
